@@ -1,0 +1,275 @@
+* {
+
+}
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header-row {
+    height: 60px;
+    background: #367fa9;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.account-info {
+    width: 300px;
+    height: 50px;
+    margin: 0 5px;
+    background: rgba(35, 35, 35, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account .exit {
+    padding: 10px;
+}
+
+
+.avatar {
+    float: left;
+}
+
+.profile-info {
+    width: 150px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.exit {
+    float: right;
+}
+
+.orders {
+    position: absolute;
+    width: 250px;
+    height: calc( 100% - 60px );
+    background: #D1D1D1;
+    float: left;
+}
+
+.make-an-order {
+    position: absolute;
+    width: calc( 100% - 250px );
+    height: calc( 100% - 60px );
+    background: #b7625c;
+}
+
+body {
+
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+
+}
+
+/* сброс стилей*/
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+
+/* глобальные */
+.js-example-disabled-results{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    outline: none;
+    padding: 5px;
+    padding-right: 40px;
+    background: none;
+}
+
+.js-example-basic-single {
+    background: transparent;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: none;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+.js-example-basic-single {
+    width: 100%;
+}
+
+/*style for site*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#order-number-data-block {
+    border: 1px solid grey;
+    background: #eeeeee;
+    padding: 2px 10px 2px 10px;
+    color: #000000;
+}
+
+#order-number-order-date {
+    margin-top: 3px;
+}
+
+#manager-customer {
+    box-sizing: border-box;
+}
+
+.control-lable {
+    max-width: 100%;
+    position: relative;
+    text-align: right;
+    padding-top:  5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 1px;
+    height: 34px;
+    border-radius: 0px;
+    padding-left: 10px;
+}
+
+.select-control {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#input-manager {
+    padding-left: 15px;
+}
+
+.number-input-control {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 34px;
+}
+
+.product-control {
+    width: 100%;
+
+}
+
+/* заголовки */
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* выборка товаров */
+
+.as-lable {
+    text-align: right;
+}
+
+.control-manual-operation-bills {
+    width: 100px;
+}
+
+.as-lable {
+    padding-top: 6px;
+}
+/* финальная сумма */
+
+.sum-block-control {
+    font-weight: 700;
+}
+
+/* кнопки */
+
+.botton-control {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid gray;
+    margin: 0 10px;
+}
+
+.btn-accept {
+    background: #367fa9;
+}
+
+.btn-repeal {
+    background: #e7e7e7;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.input-group .input-group-addon {
+
+    border-radius: 0;
+    border-color: #d2d6de;
+    background-color: #fff;
+
+}
+
+.input-group-addon:last-child {
+
+    border-left: 0;
+    border-left-color: currentcolor;
+
+}
+
+.input-group-addon {
+    cursor: pointer;
+
+
+}
+
+.input-group-addon {
+    padding: 9px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555555;
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 4px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+select {
+    border: none;
+}
